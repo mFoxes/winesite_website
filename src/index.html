@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="title">
+				<div class="title__container container-title">
+					<div class="container-title__button">
+						<button>винная карта</button>
+						<button>дегустация</button>
+					</div>
+				</div>
+			</main>
+			<main class="about">
+				<div class="about__container container-about">
+					<div class="container-about__content content-about">
+						<div class="content-about__title">
+							Лучший вкус, это вкус долголетнего вина
+						</div>
+						<div class="content-about__line"></div>
+						<div class="content-about__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.
+						</div>
+						<img src="img/glass.png" alt="wine_glass">
+					</div>
+				</div>
+			</main>
+			<main class="collection">
+				<div class="collection__container container-collection">
+					<div class="container-collection__content">
+						<div class="container-collection__top">
+							Новинки коллекций
+						</div>
+						<div class="container-collection__title">
+							<p>Март 1980</p> 
+							<p>Урожай Марселя</p> 
+						</div>
+						<div class="container-collection__line">
+
+						</div>
+						<div class="container-collection__text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+							<p>Feugiat enim tortor in hac id imperdiet adipiscing. </p>
+							<p>Pellentesque nisi, mi sit non sit sed fermentum. </p>
+							<p>Felis adipiscing morbi sodales ac. </p>
+						</div>
+						<table class="container-collection__tible">
+							<tr>
+								<td>1980</td>
+								<td>
+									<h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
+									<p>Красочная бутылка вина из Марселя</p>
+								</td>
+							</tr>
+							<tr>
+								<td>1980</td>
+								<td>
+									<h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
+									<p>Красочная бутылка вина из Марселя</p>
+								</td>
+							</tr>
+							<tr>
+								<td>1980</td>
+								<td>
+									<h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
+									<p>Красочная бутылка вина из Марселя</p>
+								</td>
+							</tr>
+						</table>
+						<div class="container-collection__text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p>Feugiat enim tortor in hac id imperdiet adipiscing.</p>
+							<p>Pellentesque nisi, mi sit non sit sed fermentum.</p>    
+							<p>Felis adipiscing morbi sodales ac. </p>
+						</div>
+						<button class="container-collection__button">узнать подробнее</button>
+					</div>
+					<div class="container-collection__images">
+						<img src="img/1.jpg" alt="fist">
+						<img src="img/2.jpg" alt="second">
+						<img src="img/3.jpg" alt="last">
+					</div>
+				</div>
+			</main>
+			<main class="appointment">
+				<div class="appointment__container container-appointment">
+					<div class="container-appointment__wraper">
+						<div class="container-appointment__title">
+							Запись на дегустацию
+						</div>
+						<div class="container-appointment__line"></div>
+						<div class="container-appointment__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. 
+						</div>
+						<div class="container-appointment__form form-container">
+							<input type="text" placeholder="Имя" class="form-container__name">
+							<input type="tel" placeholder="Телефон" class="form-container__phone">
+							<input type="text" placeholder="Бутик на Невском 103" class="form-container__address">
+						</div>
+						<button class="container-appointment__button">
+							записаться
+						</button>
+					</div>
+					<img src="img/grape.png" alt="grape" class="container-appointment__grape">
+					<img src="img/barrel.png" alt="barrel" class="container-appointment__barrel">
+					<div class="container-appointment__border"></div>
+				</div>
+				
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>
